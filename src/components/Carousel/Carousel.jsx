@@ -60,7 +60,7 @@ export default function Recomends() {
                 <Wrap>
                 <div>
                     <Link to="/">
-                    <Image src={img1} alt="image1" />
+                    <Image src={img1} alt="image1"/>
                     </Link>
                 </div>
                 </Wrap>
@@ -68,7 +68,7 @@ export default function Recomends() {
                 <Wrap>
                 <div>
                     <Link to="/">
-                    <Image src={img2} alt="image2" />
+                    <Image src={img2} alt="image2"/>
                     </Link>
                 </div>
                 </Wrap>
@@ -76,7 +76,7 @@ export default function Recomends() {
                 <Wrap>
                 <div>
                     <Link to="/">
-                    <Image src={img3} alt="image3" />
+                    <Image src={img3} alt="image3"/>
                     </Link>
                 </div>
                 </Wrap>
@@ -84,7 +84,7 @@ export default function Recomends() {
                 <Wrap>
                 <div>
                     <Link to="/">
-                    <Image src={img4} alt="image4" />
+                    <Image src={img4} alt="image4"/>
                     </Link>
                 </div>
                 </Wrap>
@@ -92,7 +92,7 @@ export default function Recomends() {
                 <Wrap>
                 <div>
                     <Link to="/">
-                    <Image src={img5} alt="image5" />
+                    <Image src={img5} alt="image5"/>
                     </Link>
                 </div>
                 </Wrap>
