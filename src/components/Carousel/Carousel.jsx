@@ -55,7 +55,7 @@ export default function Recomends() {
   return (
       <>
         <Section>
-            <p>Lenguages</p>
+            <p>Languages</p>
             <Carousel {...settings}>
                 <Wrap>
                 <div>
