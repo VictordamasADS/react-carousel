@@ -2,22 +2,26 @@ import styled from 'styled-components';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import imgText from '../../img/title.jpg';
 
 export const Section = styled.section`
   padding: 1rem 0.2rem;
   width: 100%;
     p {
       text-align: center;
-      font-size: 1.7rem;
+      font-size: 4rem;
       text-transform: uppercase;
       font-weight: 800;
-      color: white;
+      color: transparent;
       padding: 0 0.55rem;
+      background-image: url(${imgText});
+      background-clip: text;
+      -webkit-background-clip: text;
       @media screen and (max-width: 991px) {
-        font-size: 1.1rem;
+        font-size: 2.5rem;
       }
       @media screen and (max-width: 550px) {
-        font-size: 0.95rem;
+        font-size: 2.5rem;
       }
   }
 `;
